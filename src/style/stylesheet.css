@@ -1,0 +1,372 @@
+/*=====================================================================================================================================================================*/
+/*header page*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  text-decoration: none
+}
+nav li {
+  float: right;
+  text-decoration: none
+}
+.nav-bar {
+  display: block;
+  color: #000;
+  padding: 25px 20px;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none
+}
+
+.nav-bar:hover {
+  background-color: #009999;
+  color: white;
+  text-decoration: none
+}
+
+/*=====================================================================================================================================================================*/
+/*index page*/
+.hero-image {
+  background-image: url("../images/night_city.JPG");
+  background-color: #000000;
+  height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: block;
+
+}
+.hero-text {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  opacity: 1.0;
+}
+
+.button {
+  width: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+}
+
+.button-4 {
+  background-color: #009999;
+  border: 3px solid #009999;
+  color: white;
+  transition: .3s;
+
+}
+.button-4:hover {
+  animation: pulse 1s infinite;
+  transition: .3s;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.modal-button {
+    display: block;
+	width:20%;
+	margin: 0 auto;
+	position: relative;
+	font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+	cursor: pointer;
+	color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    position: absolute;
+
+}
+.containhome{
+	position: relative;
+}
+/*=====================================================================================================================================================================*/
+/*sports page*/
+.sport{
+  border-top: white solid 8px;
+}
+
+.sport h1{
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 50px;
+  background-image: url(lackr.jpg);
+
+}
+
+.sport a h2{
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  margin-top: 60px;
+  text-decoration: underline;
+}
+
+.sport a h2:hover{
+  background-color: blueviolet;
+  color: white;
+}
+
+body {
+    background-color:#0e0e0e
+
+}
+
+/*=====================================================================================================================================================================*/
+/* login and register */
+.form-control {
+    display: block;
+    width: 25%;
+    align-content: center;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #737373;
+}
+
+/*=====================================================================================================================================================================*/
+/*contact*/
+
+.contact h1{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: #009999;
+    margin-top: 50px;
+}
+.contact h2{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.contact p{
+  font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    margin-top: 70px;
+
+}
+
+/*=====================================================================================================================================================================*/
+/* ADDITIONAL STYLING */
+/* The container */
+.container2 {
+    display: block;
+    font-family: Montserrat;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    margin-top: 35px;
+    cursor: pointer;
+    font-size: 25px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Hide the browser's default checkbox */
+.container2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+/* Create a custom checkbox */
+.checkmark2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    font-size: 12px;
+}
+/* When the checkbox is checked, add a blue background */
+.container2 input:checked ~ .checkmark2 {
+    background-color: #2196F3;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark2:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+/* Show the checkmark when checked */
+.container2 input:checked ~ .checkmark2:after {
+    display: block;
+}
+/* Style the checkmark/indicator */
+.container2 .checkmark2:after {
+    left: 7px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/*=====================================================================================================================================================================*/
+/*Login page*/
+.login{
+    border-top: solid 10px white;
+}
+.login h1{
+    margin-top: 100px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #00ff00;
+}
+.login .wrapper {
+    margin-top: 75px;
+    margin-left: 550px;
+}
+.login .wrapper label{
+    font-size: 60px;
+    font-weight: 500;
+    color: white
+}
+.login .wrapper input{
+    background-color: lightseagreen;
+    padding-top:25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 25px;
+    font-size: 25px;
+}
+.login .wrapper a h2{
+    margin-left: 350px;
+    margin-top: 16px;
+    color: red;
+}
+.login .wrapper .btn{
+    background-color: lightseagreen;
+    padding-top:25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 25px;
+    margin-top: 100px;
+    margin-left: 400px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+.login .wrapper a h3{
+    margin-left: 300px;
+    margin-top: 16px;
+    color: red;
+    font-weight: bold;
+    text-decoration: underline red;
+}
+
+ .pdflink {
+	text-align: center;
+}
